@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration PAge </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!-- <link rel="stylesheet" href="newcss.css"> -->
+    </head>
+    <body>
+<main>
+  <section>
+<h2>Please register an acount</h2>
+<form action="/register" method="POST"> <!-- Links it to the /register post route in app.js -->
+    <div>
+      <label for="username">Username:</label><br>
+      <input type="text" id="username" name="username" value="Name here"><br>
+      </div>
+      <div>
+      <label for="password">password:</label><br>
+      <input type="password" id="password" name="password" ><br> <!--  Note the input type is "password" this results in inputted text being replaced with ........ -->
+      </div>
+      <button>Submit</button>
+    </form>  
+</section>
+</main>
+      <!--  <script type="text/javascript" src="newjavascript.js"></script> -->
+    </body>
+</html>
